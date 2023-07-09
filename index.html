@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Twitter Clone</h1>
+  <div id="post-tweet">
+    <input type="text" id="username" placeholder="Username">
+    <input type="text" id="content" placeholder="Tweet">
+    <button onclick="postTweet()">Post Tweet</button>
+  </div>
+  <div id="view-tweets">
+    <h2>All Tweets</h2>
+    <ul id="tweets-list"></ul>
+  </div>
+  <div id="search-tweets">
+    <input type="text" id="search-username" placeholder="Search by username">
+    <button onclick="searchTweets()">Search</button>
+    <ul id="search-results"></ul>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
